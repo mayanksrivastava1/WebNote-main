@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/inoteBook?readPreference=primary&directConnection=true',{useNewUrlParser: true}
+mongoose.connect('mongodb+srv://notebook:12345@cluster0.4pvu4at.mongodb.net/?retryWrites=true&w=majority',{useNewUrlParser: true}
 ).then(()=>{
     console.log("Connected Sucessfully");
 }).catch(()=>{
