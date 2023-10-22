@@ -3,10 +3,19 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
-app.use(cors());
+app.use(cors({origin:'http://localhost:3000',credentials:true}));
 const port = process.env.HOST_URL || 5000
 app.use(express.json());
-
+const session =require('express-session');
+app.use(session({
+    name:'something',
+    secret:process.env.SESSION_SECRET,
+    resave:false,
+    saveUninitialized:false,
+    cookie:{
+        maxAge:15*24*60*60*1000
+    }
+}));
 const UserRoute = require('./routes/auth');
 app.use('/api/auth',UserRoute)
 

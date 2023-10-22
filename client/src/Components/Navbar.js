@@ -13,7 +13,7 @@ const Navbar = ({setIsLoggedIn}) => {
         <>
             <nav className="navbar navbar-expand-lg bg-body-tertiary" id='Nav'>
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to="/">WebNote</Link>
+                    <Link className="navbar-brand" to="/">Notes taking App</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -23,7 +23,7 @@ const Navbar = ({setIsLoggedIn}) => {
                                 <NavLink className="nav-link" aria-current="page" to="/">Your Notes</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" aria-current="page" to="/addNote">AddNote</NavLink>
+                                <NavLink className="nav-link" aria-current="page" to="/addNote">Add Notes</NavLink>
                             </li>
                         </ul>
                         <form className="d-flex">
