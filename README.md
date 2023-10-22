@@ -22,9 +22,9 @@ MERN Notes App is a web-based application that allows users to create, edit, and
 
 ## Screenshots
 
-![Home Page](screenshots/1.png)
-![Note Editor](screenshots/2.png)
-![Registration Page](screenshots/3.png)
+![Home Page](Screenshots/1.png)
+![Note Editor](Screenshots/2.png)
+![Registration Page](Screenshots/3.png)
 
 ## Installation
 
