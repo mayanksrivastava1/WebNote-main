@@ -3,7 +3,7 @@ import NoteContext from './NoteContext'
 import { toast } from 'react-toastify'
 
 const NoteState = (props) => {
-    const host = 'http://localhost:5000'
+    const host = 'https://webnote-sw44.onrender.com'
     const [notes, setNotes] = useState([])
 
     // Fetch Notes

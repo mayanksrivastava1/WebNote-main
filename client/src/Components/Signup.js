@@ -5,7 +5,7 @@ import { toast } from 'react-toastify';
 const Signup = ({setIsLoggedIn}) => {
     const navigate = useNavigate()
     const [loading, setLoading] = useState(false)
-    const host = 'http://localhost:5000'
+    const host = 'https://webnote-sw44.onrender.com'
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');

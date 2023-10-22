@@ -3,7 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
-app.use(cors({origin:'http://localhost:3000',credentials:true}));
+app.use(cors({origin:'https://65352367917348683d43f95d--sage-basbousa-dab6f4.netlify.app',credentials:true}));
 const port = process.env.HOST_URL || 5000
 app.use(express.json());
 const session =require('express-session');
