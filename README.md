@@ -1,4 +1,4 @@
-# WebNote-main# MERN Notes App
+# MERN Notes App
 
 MERN Notes App is a web-based application that allows users to create, edit, and delete notes. It is built using the MERN stack, which consists of MongoDB, Express.js, React, and Node.js. This application provides a simple and intuitive interface for users to manage their notes.
 
